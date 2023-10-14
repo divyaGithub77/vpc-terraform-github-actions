@@ -9,10 +9,10 @@ terraform {
   backend "s3" {
     bucket = "terraform-remote-backend-s3"
     key    = "dev/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
